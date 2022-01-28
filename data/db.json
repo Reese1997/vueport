@@ -1,0 +1,7 @@
+{
+    "projects": [
+        { "title": "html", "id": 1, "details": "" },
+        { "title": "javascript", "id": 2, "details": "" },
+        { "title": "vue", "id": 3, "details": "" }
+    ]
+}
