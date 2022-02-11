@@ -1,5 +1,5 @@
 <template>
-  <MDBFooter bg="dark" :text="['center', 'white']">
+  <MDBFooter :text="['center', 'black']">
     <!-- Grid container -->
     <MDBContainer class="p-4 pb-0">
       <!-- Section: Social media -->
@@ -7,9 +7,10 @@
         <!-- Facebook -->
         <MDBBtn
           tag="a"
-          outline="light"
+          color="primary"
           href="#!"
           floating
+          style="background-color: #3b5998"
           class="m-1"
         >
           <MDBIcon iconStyle="fab" icon="facebook-f"></MDBIcon>
@@ -17,9 +18,10 @@
         <!-- Twitter -->
         <MDBBtn
           tag="a"
-          outline="light"
+          color="primary"
           href="#!"
           floating
+          style="background-color: #55acee"
           class="m-1"
         >
           <MDBIcon iconStyle="fab" icon="twitter"></MDBIcon>
@@ -27,9 +29,10 @@
         <!-- Google -->
         <MDBBtn
           tag="a"
-          outline="light"
+          color="primary"
           href="#!"
           floating
+          style="background-color: #dd4b39"
           class="m-1"
         >
           <MDBIcon iconStyle="fab" icon="google"></MDBIcon>
@@ -37,9 +40,10 @@
         <!-- Instagram -->
         <MDBBtn
           tag="a"
-          outline="light"
+          color="primary"
           href="#!"
           floating
+          style="background-color: #ac2bac"
           class="m-1"
         >
           <MDBIcon iconStyle="fab" icon="instagram"></MDBIcon>
@@ -47,9 +51,10 @@
         <!-- Linkedin -->
         <MDBBtn
           tag="a"
-          outline="light"
+          color="primary"
           href="#!"
           floating
+          style="background-color: #0082ca"
           class="m-1"
         >
           <MDBIcon iconStyle="fab" icon="linkedin-in"></MDBIcon>
@@ -57,9 +62,10 @@
         <!-- Github -->
         <MDBBtn
           tag="a"
-          outline="light"
+          color="primary"
           href="#!"
           floating
+          style="background-color: #333333"
           class="m-1"
         >
           <MDBIcon iconStyle="fab" icon="github"></MDBIcon>
@@ -71,27 +77,27 @@
     <!-- Copyright -->
     <div
       class="text-center p-3"
-      style="background-color: rgba(0, 0, 0, 0.2)"
+      style="background-color: rgb(205, 223, 240)"
     >
-      © 2020 Copyright:
+      © 2022 Copyright: Reese Abrahams
       <a class="text-white" href="https://mdbootstrap.com/"
-        >MDBootstrap.com</a
+        ></a
       >
     </div>
     <!-- Copyright -->
   </MDBFooter>
 </template>
 
+
 <script>
-  import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-vue-ui-kit';
+  import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-vue-ui-kit';
   export default {
     components: {
       MDBFooter,
       MDBContainer,
       MDBRow,
       MDBCol,
-      MDBBtn,
-      MDBIcon
+      MDBBtn
     },
   };
 </script>

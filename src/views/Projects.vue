@@ -1,84 +1,252 @@
 <template>
-<div class="proj">
-  <MDBCard class="mb-3">
-    <MDBCardImg top src=".//sc.png" alt="..."/>
-    <MDBCardBody>
-      <MDBCardTitle></MDBCardTitle>
-      <MDBCardText>
-        First cards.
-      </MDBCardText>HTML, CSS.
-      <MDBCardText>
-      </MDBCardText>
-    </MDBCardBody>
-  </MDBCard>
-  <p>GitHub link: </p>
-    <p>Netlify link: </p>
-
-
-   <MDBCard class="mb-3">
-    <MDBCardImg top src="" alt="..."/>
-    <MDBCardBody>
-      <MDBCardTitle></MDBCardTitle>
-      <MDBCardText>
-         JavaScript.
-      </MDBCardText>
-      <MDBCardText>
-      </MDBCardText>
-    </MDBCardBody>
-  </MDBCard>
-<p>GitHub link: </p>
-    <p>Netlify link: </p>
-   <MDBCard class="mb-3">
-    <MDBCardImg top src="" alt="..."/>
-    <MDBCardBody>
-      <MDBCardTitle></MDBCardTitle>
-      <MDBCardText>
-        This is a wider card with supporting text below as a natural lead-in to additional
-        content. This content is a little bit longer.
-      </MDBCardText>
-      <MDBCardText>
-      </MDBCardText>
-    </MDBCardBody>
-  </MDBCard>
-
-   <MDBCard class="mb-3">
-    <MDBCardImg top src="" alt="..."/>
-    <MDBCardBody>
-      <MDBCardTitle></MDBCardTitle>
-      <MDBCardText>
-        This is a wider card with supporting text below as a natural lead-in to additional
-        content. This content is a little bit longer.
-      </MDBCardText>
-      <MDBCardText>
-      </MDBCardText>
-    </MDBCardBody>
-  </MDBCard>
+  <div class="main">
+    <ul class="cards">
+      <li class="cards_item animate__animated animate__fadeInLeft">
+        <div class="card">
+          <div class="card_image"><img src="@/assets/sc.png" /></div>
+          <div class="card_content">
+            <h2 class="card_title">First cards made with:</h2>
+            <p class="card_text">HTML, CSS</p>
+            <a
+              href="
+/"
+              class="fa fa-github"
+            ></a>
+            <i
+              ><span
+                class="iconify mx-2"
+                data-icon="simple-icons:netlify"
+                style="font-size: 2rem"
+              ></span
+            ></i>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item animate__animated animate__fadeInLeft">
+        <div class="card">
+          <div class="card_image"><img src="@/assets/sc2.png" /></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">HTML, CSS</p>
+            <a href="/" class="fab fa-github"></a>
+            <i
+              ><span
+                class="iconify mx-2"
+                data-icon="simple-icons:netlify"
+                style="font-size: 2rem"
+              ></span
+            ></i>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item animate__animated animate__fadeInLeft">
+        <div class="card">
+          <div class="card_image"><img src="@/assets/sc3.png" /></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">HTML, CSS</p>
+            <a
+              href="https://github.com/Reese1997/Reese-s-Contact-Form.git
+/ "
+              class="fab fa-github"
+            ></a>
+            <i
+              ><span
+                class="iconify mx-2"
+                data-icon="simple-icons:netlify"
+                style="font-size: 2rem"
+              ></span
+            ></i>
+            
+          </div>
+        </div>
+      </li>
+      <li class="cards_item animate__animated animate__fadeInRight">
+        <div class="card">
+          <div class="card_image"><img src="@/assets/ts.png" /></div>
+          <div class="card_content">
+            <h2 class="card_title">Temperature Converter</h2>
+            <p class="card_text">Javascript</p>
+            <a
+              href="https://github.com/Reese1997/temp-converter.git
+/ "
+              class="fab fa-github"
+            ></a>
+            <i
+              ><span
+                class="iconify mx-2"
+                data-icon="simple-icons:netlify"
+                style="font-size: 2rem"
+                
+              ></span
+            ></i>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item animate__animated animate__fadeInRight">
+        <div class="ja">
+          <div class="card_image"><img src="@/assets/jss.png" style="width: 500px; height: 220px"/></div>
+          <div class="card_content">
+            <h2 class="card_title">Calculator</h2>
+            <p class="card_text">Javascript</p>
+            <a href="https://github.com/Reese1997/JavascriptCalc.git/" class="fab fa-github"></a>
+            <i
+              ><span
+                class="iconify mx-2"
+                data-icon="simple-icons:netlify"
+                style="font-size: 2rem"
+              ></span
+            ></i>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item animate__animated animate__fadeInRight">
+        <div class="card">
+          <div class="card_image"><img src="@/assets/js.png" style="width: 500px; height: 220px" /></div>
+          <div class="card_content">
+            <h2 class="card_title">E-commerce site</h2>
+            <p class="card_text">HTML, CSS, JAVASCRIPT</p>
+            <a
+              href="https://github.com/Reese1997/comstoreprojjs.git/"
+              class="fab fa-github"
+            ></a>
+            <i
+              ><span
+                class="iconify mx-2"
+                data-icon="simple-icons:netlify"
+                style="font-size: 5 rem"
+              ></span
+            ></i>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
-      <p>GitHub link: </p>
-    <p>Netlify link: </p>
 </template>
 
 <script>
-  import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardHeader, MDBCardImg, MDBBtn } from "mdb-vue-ui-kit";
-  export default {
-    components: {
-      MDBCard,
-      MDBCardBody,
-      MDBCardTitle,
-      MDBCardText,
-      MDBCardHeader,
-      MDBCardImg,
-      MDBBtn
-    }
-  };
+export default {};
 </script>
-  
 
 <style>
-.proj {
-    max-height: 100vh;
-    width: 70%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(241, 231, 231, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    #698cadb3 40%,
+    rgb(21, 107, 192) 100%
+  );
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.ja {
+  max-height: 5%;
+}
 </style>

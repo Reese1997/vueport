@@ -32,10 +32,15 @@
   <p>Password: {{ password }}</p>
   <p>Role: {{ role }}</p>
   <p>Terms accepted: {{ terms }}</p>
+
+  <Footer/>
 </template>
 
 <script>
+
+import Footer from '../views/Footer.vue'
 export default {
+  components: {Footer},
   data() {
     return {
       email: "",
@@ -44,7 +49,8 @@ export default {
       terms: false,
       tempSkill: "",
       skills: [],
-      passwordError: ''
+      passwordError: "",
+      
     };
   },
   methods: {
@@ -58,37 +64,37 @@ export default {
       }
     },
     deleteSkill(skill) {
-        this.skills = this.skills.filter((item) => {
-            return skill !== item
-        })
+      this.skills = this.skills.filter((item) => {
+        return skill !== item;
+      });
     },
     handleSubmit() {
-        //validate pwd
-        this.passwordError = this.password.length > 5 ?
-        '' : 'Password must be at least 6 characters long.'
-        if(!this.password) {
-            console.log('email: ', this.email)
-            console.log('password: ', this.password)
-            console.log('role: ', this.role)
-            console.log('skills: ', this.skills)
-            console.log('terms accepted: ', this.terms)
-
-        }
-    }
+      //validate pwd
+      this.passwordError =
+        this.password.length > 5
+          ? ""
+          : "Password must be at least 6 characters long.";
+      if (!this.password) {
+        console.log("email: ", this.email);
+        console.log("password: ", this.password);
+        console.log("role: ", this.role);
+        console.log("skills: ", this.skills);
+        console.log("terms accepted: ", this.terms);
+      }
+    },
   },
 };
 </script>
 
 <style>
 form {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
   background: white;
   text-align: left;
-  padding: 40px;
+  padding: 50px;
   border-radius: 10px;
   border-style: ridge;
-
 }
 label {
   color: rgb(58, 55, 55);

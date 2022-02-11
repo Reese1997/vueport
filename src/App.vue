@@ -1,14 +1,15 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link :to="{ name: 'About' }">About</router-link>
     <router-link :to="{ name: 'Work' }">Work</router-link>
     <router-link :to="{ name: 'Skills' }">Skills</router-link>
-    <router-link :to="{ name: 'Projects' }">Projects</router-link>
+    <router-link :to="{ name: 'Projects' }">Project </router-link>
     <router-link :to="{ name: 'Testimonials' }">Testimonials</router-link>
     <router-link :to="{ name: 'Contact' }">Contact</router-link>
   </div>
   <router-view />
+  
 </template>
 
 <script>
@@ -17,35 +18,43 @@ export default {
     redirect() {},
     back() {},
     forward() {},
-  }
-}
+  },
+};
 </script>
 
-<style>
+<style scoped>
 #app {
-background-color: rgb(29, 27, 27);
+  
+  background-color: rgb(40, 150, 201);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #000000;
+  color: #f1e3e3;
 }
 
 #nav {
-  padding: 30px;
+  
+  padding: 23px;
+  background-color: rgb(205, 223, 240);
+  bottom: 0;
+  display: flex;
+justify-content: center;
+
+
 }
 
 #nav a {
-  font-size: 23px;
-  /* font-weight: bold; */
-  color: #f2f5f8;
-  text-decoration: blueviolet;
-  padding: 10px;
+  font-size: 20px;
+  color: #332e2e;
+  text-decoration: rgb(15, 14, 15);
+  padding: 9px;
   border-radius: 4px;
 }
 
 #nav a.router-link-exact-active {
-  color: #eff4f8;
-  background: rgb(15, 112, 202);
+  color: white;
+  background: rgb(21, 107, 192);
+  
 }
 button {
   margin: 0 10px;

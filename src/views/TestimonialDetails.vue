@@ -5,17 +5,14 @@
 
 <script>
 export default {
-props: ['id'],
+  props: ["id"],
 
-// data() {
-//     return {
-//         id: this$route.params.id
-//     }
-// }
-}
+  // data() {
+  //     return {
+  //         id: this$route.params.id
+  //     }
+  // }
+};
 </script>
 
-<style>
-
-</style>
-
+<style></style>
