@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Festive&family=Lato:ital,wght@0,300;1,400&family=Montserrat+Alternates:wght@300;400&family=Montserrat:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
 #app {
   
   background-color: rgb(40, 150, 201);

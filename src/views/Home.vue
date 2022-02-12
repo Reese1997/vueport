@@ -1,7 +1,7 @@
 <template>
   <!-- <img src="@/assets/bgblck.jpg" alt="" /> -->
   <div class="background animate__animated animate__zoomIn">
-    <h1>Reese Simone Abrahams</h1>
+    <h1>Reese Simone Abrahams</h1> 
     <h2>I am <span id="text"></span></h2>
     <div class="row justify-content-center"></div>
     <a
@@ -26,8 +26,8 @@
 export default {};
 const sentences = [
   "Reese",
-  "Front-End Developer",
-  "Software Developer",
+  "a Front-End Developer",
+  "a Software Developer",
   "Creative and logical",
 ];
 
@@ -73,12 +73,13 @@ sentenceLoop(sentences, "#text");
 </script>
 
 <style scoped>
+
 .background {
-  background-image: url("../assets/wow.png");
+  background-image: url("../assets/r.png");
   background-size: 300px 300px;
-  height: 100vh;
+  height: 86.5vh;
   color: rgb(223, 206, 206);
-  background-position: fixed;
+  background-position: 67px -80px;
   background-size: cover;
   background-repeat: none;
 }
@@ -123,7 +124,7 @@ header {
   color: white;
 }
 h1 {
-  padding-top: 13%;
+  padding-top: 16%;
   padding-left: 80px;
   text-align: center;
   color: rgb(19, 19, 20);
@@ -163,7 +164,7 @@ h2 {
 }
 
 .fa-codepen:before {
-  padding-left: 880px;
+  padding-left: 790px;
 }
 
 .fa:hover {

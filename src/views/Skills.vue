@@ -1,4 +1,6 @@
 <template>
+<h3>Skills:</h3>
+
   <div class="container animate__animated animate__fadeInRight">
     <div class="skills">
       <li>
@@ -70,7 +72,7 @@ export default {};
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 236, 236);
+  background-color: white;
 }
 
 h1 {
@@ -91,7 +93,7 @@ li {
 
 .skills {
   /*style the text*/
-  width: 500px;
+  width: 1170px;
   margin: 60px auto;
   color: rgb(10, 10, 10);
 }
@@ -103,7 +105,7 @@ li {
 
 .bar {
   /*style the bar*/
-  background-color: #b2cddd;
+  /* background-color: #b2cddd; */
   display: block;
   height: 2px;
   border: 8px solid rgba(82, 80, 80, 0.3);
@@ -126,23 +128,23 @@ li {
 
 .css {
   /*set skills and animation of css*/
-  width: 100%;
+  width: 90%;
   animation: css 2s;
 }
 
 .javascript {
   /*set skills and animation of javascript*/
-  width: 100%;
+  width: 80%;
   animation: javascript 2s;
 }
 
 .vuejs {
-  width: 100%;
+  width: 90%;
   animation: vuejs 2s;
 }
 
 .nodejs {
-  width: 100%;
+  width: 90%;
   animation: nodejs 2s;
 }
 

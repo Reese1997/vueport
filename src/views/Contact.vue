@@ -27,13 +27,16 @@
     <div class="submit">
       <button>Create an Account</button>
     </div>
+    
   </form>
-  <p>Email: {{ email }}</p>
+  
+  <!-- <p>Email: {{ email }}</p>
   <p>Password: {{ password }}</p>
   <p>Role: {{ role }}</p>
-  <p>Terms accepted: {{ terms }}</p>
+  <p>Terms accepted: {{ terms }}</p> -->
 
   <Footer/>
+  
 </template>
 
 <script>
@@ -88,7 +91,7 @@ export default {
 
 <style>
 form {
-  max-width: 700px;
+  max-width: 1170px;
   margin: 30px auto;
   background: white;
   text-align: left;

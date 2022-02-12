@@ -1,24 +1,26 @@
 <template>
+<h3>Projects:</h3>
+
   <div class="main">
     <ul class="cards">
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
           <div class="card_image"><img src="@/assets/sc.png" /></div>
           <div class="card_content">
-            <h2 class="card_title">First cards made with:</h2>
-            <p class="card_text">HTML, CSS</p>
+            <h2 class="card_title">First cards made with HTML and CSS</h2>
             <a
               href="
 /"
               class="fa fa-github"
+              style="font-size: 40px; color: #222"
             ></a>
             <i
               ><span
                 class="iconify mx-2"
                 data-icon="simple-icons:netlify"
                 style="font-size: 2rem"
-              ></span
-            ></i>
+              ></span>
+            </i>
           </div>
         </div>
       </li>
@@ -26,16 +28,18 @@
         <div class="card">
           <div class="card_image"><img src="@/assets/sc2.png" /></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">HTML, CSS</p>
-            <a href="/" class="fab fa-github"></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span
-            ></i>
+            <h2 class="card_title">First attempt at HTML and CSS coding</h2>
+            <a
+              href="/"
+              class="fab fa-github"
+              style="font-size: 40px; color: #222"
+            ></a>
+            <a href="https://www.google.com" target="_blank"
+              ><img
+                src="../assets/netlify.png"
+                style="height: 50px; width: 50px"
+                alt=""
+            /></a>
           </div>
         </div>
       </li>
@@ -43,21 +47,20 @@
         <div class="card">
           <div class="card_image"><img src="@/assets/sc3.png" /></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">HTML, CSS</p>
+            <h2 class="card_title">First Portfolio</h2>
             <a
               href="https://github.com/Reese1997/Reese-s-Contact-Form.git
 / "
               class="fab fa-github"
-            ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span
-            ></i>
-            
+              style="font-size: 40px; color: #222"
+            >
+           </a>
+            <a href="https://www.google.com" target="_blank"
+              ><img
+                src="../assets/netlify.png"
+                style="height: 50px; width: 50px"
+                alt=""
+            /></a>
           </div>
         </div>
       </li>
@@ -65,58 +68,61 @@
         <div class="card">
           <div class="card_image"><img src="@/assets/ts.png" /></div>
           <div class="card_content">
-            <h2 class="card_title">Temperature Converter</h2>
-            <p class="card_text">Javascript</p>
+            <h2 class="card_title">Temperature Converter with Javascript functionality</h2>
             <a
               href="https://github.com/Reese1997/temp-converter.git
 / "
               class="fab fa-github"
+              style="font-size: 40px; color: #222"
             ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-                
-              ></span
-            ></i>
+            <a href="https://www.google.com" target="_blank"
+              ><img
+                src="../assets/netlify.png"
+                style="height: 50px; width: 50px"
+                alt=""
+            /></a>
           </div>
         </div>
       </li>
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="ja">
-          <div class="card_image"><img src="@/assets/jss.png" style="width: 500px; height: 220px"/></div>
+          <div class="card_image">
+            <img src="@/assets/jss.png" style="width: 500px; height: 220px" />
+          </div>
           <div class="card_content">
-            <h2 class="card_title">Calculator</h2>
-            <p class="card_text">Javascript</p>
-            <a href="https://github.com/Reese1997/JavascriptCalc.git/" class="fab fa-github"></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span
-            ></i>
+            <h2 class="card_title">Calculator with Javascript</h2>
+            <a
+              href="https://github.com/Reese1997/JavascriptCalc.git/"
+              class="fab fa-github"
+              style="font-size: 40px; color: #222"
+            ></a>
+            <a href="https://www.google.com" target="_blank"
+              ><img
+                src="../assets/netlify.png"
+                style="height: 50px; width: 50px"
+                alt=""
+            /></a>
           </div>
         </div>
       </li>
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
-          <div class="card_image"><img src="@/assets/js.png" style="width: 500px; height: 220px" /></div>
+          <div class="card_image">
+            <img src="@/assets/js.png" style="width: 500px; height: 220px" />
+          </div>
           <div class="card_content">
-            <h2 class="card_title">E-commerce site</h2>
-            <p class="card_text">HTML, CSS, JAVASCRIPT</p>
+            <h2 class="card_title">E-commerce site with Javascript</h2>
             <a
               href="https://github.com/Reese1997/comstoreprojjs.git/"
               class="fab fa-github"
+              style="font-size: 40px; color: #222"
             ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 5 rem"
-              ></span
-            ></i>
+            <a href="https://www.google.com" target="_blank"
+              ><img
+                src="../assets/netlify.png"
+                style="height: 50px; width: 50px"
+                alt=""
+            /></a>
           </div>
         </div>
       </li>

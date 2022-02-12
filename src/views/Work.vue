@@ -1,4 +1,5 @@
 <template>
+<h3>Work:</h3>
   <div class="timeline">
     <div class="timeline__component">
       <div
@@ -82,13 +83,14 @@ export default {};
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Festive&family=Lato:ital,wght@0,300;1,400&family=Montserrat+Alternates:wght@300;400&family=Montserrat:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
 body {
   background: #070707;
 }
 
 .timeline {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1400px;
   padding: 25px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;

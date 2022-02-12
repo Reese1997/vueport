@@ -2,14 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from "../views/About.vue";
 import NotFound from "../views/NotFound.vue";
-
 import Work from "../views/Work.vue"
 import Skills from "../views/Skills.vue"
 import Projects from "../views/Projects.vue"
 import Testimonials from "../views/Testimonials.vue"
 import TestimonialDetails from "../views/TestimonialDetails.vue";
 import Contact from "../views/Contact.vue";
-
 
 const routes = [
   {
