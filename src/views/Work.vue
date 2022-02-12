@@ -1,11 +1,13 @@
 <template>
-<h3>Work:</h3>
+  <h3>Work:</h3>
   <div class="timeline">
     <div class="timeline__component">
       <div
         class="timeline__date timeline__date--right animate__animated animate__backInLeft"
       >
-        2015
+            <div class="timeline__date">September 2021-March 2022</div>
+
+        2021
       </div>
     </div>
     <div class="timeline__middle">
@@ -13,19 +15,21 @@
     </div>
     <div class="timeline__component timeline__component--bg">
       <h2 class="timeline__title animate__animated animate__backInLeft">
-        2015
+        2021
       </h2>
       <p class="timeline__paragraph animate__animated animate__backInLeft">
-        I matriculated from Heathfield High School.
+        Enrolled at Lifechoices Academy
       </p>
     </div>
     <div class="timeline__component timeline__component--bg">
       <h2 class="timeline__title animate__animated animate__backInRight">
-        2016
+                2017-2018
+
       </h2>
       <p class="timeline__paragraph animate__animated animate__backInLeft">
-        I completed a Learnership for Grassroots (NPO) employed via The Western
-        Cape Government (Social Development) for two years.
+         The department I worked for (The Department Social Development) moved
+        the workload to an (NPO) called CECD (Centre For Early Childhood
+        Development) aiding in registering ECD Centres.
       </p>
     </div>
     <div class="timeline__middle">
@@ -33,14 +37,13 @@
     </div>
     <div class="timeline__component">
       <div class="timeline__date animate__animated animate__backInRight">
-        2016
+        2017-2018
       </div>
     </div>
     <div class="timeline__component">
       <div
         class="timeline__date timeline__date--right animate__animated animate__backInLeft"
       >
-        2017-2018
       </div>
     </div>
     <div class="timeline__middle">
@@ -48,22 +51,20 @@
     </div>
     <div class="timeline__component timeline__component--bg">
       <h2 class="timeline__title animate__animated animate__backInLeft">
-        2017-2018
+        2016
       </h2>
       <p class="timeline__paragraph animate__animated animate__backInLeft">
-        The department I worked for (The Department Social Development) moved
-        the workload to an (NPO) called CECD (Centre For Early Childhood
-        Development) aiding in registering ECD Centres.
+       Learnership at the Department of Social Development
       </p>
     </div>
     <div
       class="timeline__component timeline__component--bottom timeline__component--bg"
     >
       <h2 class="timeline__title animate__animated animate__backInLeft">
-        2021
+        2015
       </h2>
       <p class="timeline__paragraph animate__animated animate__backInLeft">
-        Enrolled at Lifechoices Academy
+        Matriculated from Heathfield High
       </p>
       <p class="timeline__paragraph"></p>
     </div>
@@ -72,29 +73,32 @@
       <div class="timeline__point timeline__point--bottom"></div>
     </div>
     <div class="timeline__component timeline__component--bottom">
-      <div class="timeline__date">September 2021-March 2022</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {};
-
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Festive&family=Lato:ital,wght@0,300;1,400&family=Montserrat+Alternates:wght@300;400&family=Montserrat:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Festive&family=Lato:ital,wght@0,300;1,400&family=Montserrat+Alternates:wght@300;400&family=Montserrat:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap");
 body {
   background: #070707;
 }
 
+h3 {
+  margin-top: 30px;
+}
+
 .timeline {
   margin: 0 auto;
+  margin-top: 20px;
   max-width: 1400px;
   padding: 25px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
-  font-family: "Fira Sans", sans-serif;
+  /* font-family: "Fira Sans", sans-serif; */
   color: #0a0a0a;
   padding: 30px;
   padding-right: 100px;
@@ -145,11 +149,12 @@ body {
 
 .timeline__title {
   margin: 0;
-  font-size: 1.15em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
 .timeline__paragraph {
   line-height: 1.5;
+  font-size: 18px;
 }
 </style>

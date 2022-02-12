@@ -5,7 +5,7 @@
     <div class="skills">
       <li>
         <h3>
-          <i class="fab fa-html5" style="font-size: 70px; color: #a2c8ec"></i>
+          <i class="fab fa-html5" style="font-size: 70px; color: #E99A24"></i>
           HTML
         </h3>
 
@@ -17,7 +17,7 @@
         <h3>
           <i
             class="fab fa-css3-alt"
-            style="font-size: 70px; color: #a2c8ec"
+            style="font-size: 70px; color: #2487E9"
           ></i>
           CSS
         </h3>
@@ -27,7 +27,7 @@
 
       <li>
         <h3>
-          <i class="fab fa-js" style="font-size: 70px; color: #a2c8ec"></i>
+          <i class="fab fa-js" style="font-size: 70px; color: #EEF538"></i>
           JAVASCRIPT
         </h3>
         <span class="bar"><span class="javascript"></span></span
@@ -36,7 +36,7 @@
 
       <li>
         <h3>
-          <i class="fab fa-vuejs" style="font-size: 70px; color: #a2c8ec"></i>
+          <i class="fab fa-vuejs" style="font-size: 70px; color: #389C29"></i>
           VUEJS
         </h3>
         <span class="bar"><span class="vuejs"></span></span
@@ -45,7 +45,7 @@
 
       <li>
         <h3>
-          <i class="fab fa-node" style="font-size: 70px; color: #a2c8ec"></i>
+          <i class="fab fa-node" style="font-size: 70px; color: #2C362B"></i>
           NODEJS
         </h3>
         <span class="bar"><span class="nodejs"></span></span
@@ -73,11 +73,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  
 }
 
 h1 {
   /*change font family of heading*/
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   padding-bottom: 20px;
   color: #040505;
   
@@ -86,9 +87,10 @@ h1 {
 li {
   /*style the li tag*/
   /* border-style: groove; */
+  
 
   list-style-type: none;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 
 .skills {
@@ -96,11 +98,15 @@ li {
   width: 1170px;
   margin: 60px auto;
   color: rgb(10, 10, 10);
+  
+  
 }
 
 .skills li {
   /*set margin of li*/
   margin: 20px 0;
+  background: rgba( 255, 255, 255, 0.15 );
+
 }
 
 .bar {

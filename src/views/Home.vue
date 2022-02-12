@@ -5,19 +5,15 @@
     <h2>I am <span id="text"></span></h2>
     <div class="row justify-content-center"></div>
     <a
-      href="https://codepen.io/reese1997 /"
-      class="fab fa-codepen"
-      target="_blank"
-      style="font-size: 70px; color: #222"
-    ></a>
-    <a
       href="https://github.com/Reese1997/"
       class="fab fa-github"
       style="font-size: 70px; color: #222"
     ></a>
     <a
       href="https://www.linkedin.com/in/reese-abrahams-19525415b/"
-      class="fa fa-linkedin"
+      class="fab fa-linkedin"
+      style="font-size: 70px; color: #222"
+
     ></a>
   </div>
 </template>
@@ -75,6 +71,7 @@ sentenceLoop(sentences, "#text");
 <style scoped>
 
 .background {
+  
   background-image: url("../assets/r.png");
   background-size: 300px 300px;
   height: 86.5vh;
@@ -163,10 +160,13 @@ h2 {
   }
 }
 
-.fa-codepen:before {
-  padding-left: 790px;
+.fa-linkedin {
+  padding-left: 60%;
 }
+.fa-github {
+    padding-left: 45%;
 
+}
 .fa:hover {
 }
 </style>

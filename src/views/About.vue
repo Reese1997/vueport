@@ -6,23 +6,24 @@
         <h1 class="masthead-heading animate__animated animate__fadeInLeft">
           Reese!
         </h1>
-         <section class="introduction-section animate__animated animate__fadeInLeft">
-    <h1>| Introduction</h1>
-    <p>
-      I am currently attending a coding bootcamp course at Lifechoices Academy. I
-      specialise in both User Interface/User Experience. I bring design and
-      functionality and transform Applications. My skills range from a wide
-      variety of coding niches, from databases to graphic design and UI/UX
-      management, and I do my job pretty well.
-    </p>
-  </section>
+        <section
+          class="introduction-section animate__animated animate__fadeInLeft"
+        >
+          <h1>| Introduction</h1>
+          <p>
+            I am currently attending a coding bootcamp course at Lifechoices
+            Academy. I specialise in both User Interface/User Experience. I
+            bring design and functionality and transform Applications. My skills
+            range from a wide variety of coding niches, from databases to
+            graphic design and UI/UX management, and I do my job pretty well.
+          </p>
+        </section>
       </header>
     </div>
     <div class="col-xl-6 col-md-6 col-sm-12">
-      <img src="@/assets/Reese4.jpg" class="reese"  />
+      <img src="@/assets/Reese4.jpg" class="reese" />
     </div>
   </div>
-
 </template>
 
 <script>
@@ -52,9 +53,15 @@ body {
   max-width: 800px;
   margin-top: 60px;
   max-height: 700px;
+
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   /* border-radius: 100%; */
 }
-
 
 /* .content-footer, */
 .masthead-heading,
@@ -70,6 +77,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em #34719b;
+  padding-left: 330px;
 }
 
 .masthead-intro {

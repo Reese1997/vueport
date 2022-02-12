@@ -1,40 +1,17 @@
 <template>
-  <form @submit.prevent="handleSubmit">
-    <label>Email:</label>
-    <input type="email" required v-model="email" />
+<form class="form" action="https://formspree.io/f/mwkazvyq" method="POST">
+        <h1>  Get in touch:</h1><br><br>
+<input type="First name" placeholder="First Name"><br><br>
+<input type="Last name" placeholder="Last Name"><br><br>
+<input type="E-mail" placeholder="E-mail"><br><br>
+<input type="Tel" placeholder="Tel"><br><br>
 
-    <label>Password:</label>
-    <input type="password" required v-model="password" />
-    <div v-if="passwordError" class="error">{{ passwordError }}</div>
-
-    <label>Role:</label>
-    <select v-model="role">
-      <option value="developer">Web Developer</option>
-      <option value="designer">Web Designer</option>
-    </select>
-
-    <label>Skills</label>
-    <input type="text" v-model="tempSkill" @keyup.alt="addSkill" />
-    <div v-for="skill in skills" :key="skill" class="pill">
-      <span @click="deleteSkill(skill)">{{ skill }}</span>
-    </div>
-
-    <div class="terms">
-      <input type="checkbox" v-model="terms" required />
-      <label>Accept terms and conditions</label>
-    </div>
-
-    <div class="submit">
-      <button>Create an Account</button>
-    </div>
-    
-  </form>
+    <textarea class="mess" name="message"></textarea><br><br>
   
-  <!-- <p>Email: {{ email }}</p>
-  <p>Password: {{ password }}</p>
-  <p>Role: {{ role }}</p>
-  <p>Terms accepted: {{ terms }}</p> -->
-
+  <!-- your other form fields go here -->
+  <button class="but" type="submit">Send</button>
+  <button class="but2" type="Reset">Reset</button>
+  </form>
   <Footer/>
   
 </template>
@@ -47,30 +24,11 @@ export default {
   data() {
     return {
       email: "",
-      password: "",
+      name: "",
       role: "",
-      terms: false,
-      tempSkill: "",
-      skills: [],
-      passwordError: "",
-      
+      terms: false,      
     };
   },
-  methods: {
-    addSkill(e) {
-      if (e.key === "," && this.tempSkill) {
-        if (!this.skills.includes(this.tempSkill)) {
-          this.skills.push(this.tempSkill);
-        }
-
-        this.tempSkill = "";
-      }
-    },
-    deleteSkill(skill) {
-      this.skills = this.skills.filter((item) => {
-        return skill !== item;
-      });
-    },
     handleSubmit() {
       //validate pwd
       this.passwordError =
@@ -79,13 +37,11 @@ export default {
           : "Password must be at least 6 characters long.";
       if (!this.password) {
         console.log("email: ", this.email);
-        console.log("password: ", this.password);
+        console.log("name: ", this.name);
         console.log("role: ", this.role);
-        console.log("skills: ", this.skills);
         console.log("terms accepted: ", this.terms);
       }
     },
-  },
 };
 </script>
 
@@ -98,6 +54,12 @@ form {
   padding: 50px;
   border-radius: 10px;
   border-style: ridge;
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 16px );
+-webkit-backdrop-filter: blur( 16px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 label {
   color: rgb(58, 55, 55);
@@ -118,13 +80,7 @@ select {
   border-bottom: 1px solid rgb(77, 135, 202);
   color: #555;
 }
-input[type="checkbox"] {
-  display: inline-block;
-  width: 16px;
-  margin: 0 10px 0 0;
-  position: relative;
-  top: 2px;
-}
+
 .pill {
   display: inline block;
   margin: 20px 10px 0 0;
@@ -154,4 +110,11 @@ button {
   font-size: 0.9em;
   font-weight: bold;
 }
+
+.mess {
+  width: 100%;
+  }
+
+  .but {
+  }
 </style>

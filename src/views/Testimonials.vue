@@ -1,11 +1,16 @@
 <template>
-<h3>Testimonials:</h3>
+  <h3>Testimonials:</h3>
 
   <div class="main">
-    <ul class="cards ">
+    <ul class="cards">
       <li class="cards_item animate__animated animate__fadeInRight">
-        <div class="card ">
-          <div class="godwin"><img src="@/assets/Godwin.jpeg" style="width: 700px; height; 300px" /></div>
+        <div class="card">
+          <div class="godwin">
+            <img
+              src="@/assets/Godwin.jpeg"
+              style="width: 700px; height; 300px"
+            />
+          </div>
           <div class="card_content">
             <h2 class="card_title">Head of Cirriculum</h2>
             <p class="card_text">Godwin Dzvapatsva</p>
@@ -21,7 +26,9 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
-          <div class="card_image"><img src="@/assets/jason.jpeg" style="width: 700px; height: 100%" /></div>
+          <div class="card_image">
+            <img src="@/assets/jason.jpeg" style="width: 700px; height: 100%" />
+          </div>
           <div class="card_content">
             <h2 class="card_title">Lecturer</h2>
             <p class="card_text">Jason Wandrag</p>
@@ -38,7 +45,9 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
-          <div class="card_image"><img src="@/assets/Abdul.jpg" style="width: 90%" /></div>
+          <div class="card_image">
+            <img src="@/assets/Abdul.jpg" style="width: 100%" />
+          </div>
           <div class="card_content">
             <h2 class="card_title">Full-Stack Developer</h2>
             <p class="card_text">Abdul-Muhaymien Salaam</p>
@@ -115,13 +124,12 @@ html {
 
 body {
   color: #f0dfdf;
-  font-family: "Quicksand", serif;
+  /* font-family: "Quicksand", serif; */
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
 }
-
 
 .main {
   max-width: 1200px;
@@ -164,11 +172,13 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .cards_item {
   display: flex;
   padding: 1rem;
+  height: 100%;
 }
 
 @media (min-width: 40rem) {

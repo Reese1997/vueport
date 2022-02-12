@@ -1,6 +1,5 @@
 <template>
 <h3>Projects:</h3>
-
   <div class="main">
     <ul class="cards">
       <li class="cards_item animate__animated animate__fadeInLeft">
@@ -9,18 +8,17 @@
           <div class="card_content">
             <h2 class="card_title">First cards made with HTML and CSS</h2>
             <a
-              href="
+              href="https://github.com/Reese1997/flexi-cards-task.git
 /"
-              class="fa fa-github"
+              class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span>
-            </i>
+            <a href="https://www.google.com" target="_blank"
+              ><img
+                src="../assets/netlify.png"
+                style="height: 50px; width: 50px"
+                alt=""
+            /></a>
           </div>
         </div>
       </li>
@@ -131,10 +129,14 @@
 </template>
 
 <script>
-export default {};
+export default {}
+ 
 </script>
 
 <style>
+h3 {
+  text-align: center
+}
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
@@ -156,6 +158,7 @@ body {
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
+  
 }
 
 .main {
@@ -204,6 +207,12 @@ img {
 .cards_item {
   display: flex;
   padding: 1rem;
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 16px );
+-webkit-backdrop-filter: blur( 16px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 @media (min-width: 40rem) {
