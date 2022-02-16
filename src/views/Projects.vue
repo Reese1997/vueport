@@ -1,5 +1,5 @@
 <template>
-<h3>Projects:</h3>
+  <h3>Projects:</h3>
   <div class="main">
     <ul class="cards">
       <li class="cards_item animate__animated animate__fadeInLeft">
@@ -13,7 +13,7 @@
               class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-            <a href="https://www.google.com" target="_blank"
+            <a href="https://cocky-sammet-ea8b0e.netlify.app" target="_blank"
               ><img
                 src="../assets/netlify.png"
                 style="height: 50px; width: 50px"
@@ -32,7 +32,7 @@
               class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-            <a href="https://www.google.com" target="_blank"
+            <a href="https://mystifying-saha-9e18dd.netlify.app" target="_blank"
               ><img
                 src="../assets/netlify.png"
                 style="height: 50px; width: 50px"
@@ -44,7 +44,7 @@
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
           <div class="card_image"><img src="@/assets/sc3.png" /></div>
-          <div class="card_content">
+          <div class="card_content" style="height: 155px">
             <h2 class="card_title">First Portfolio</h2>
             <a
               href="https://github.com/Reese1997/Reese-s-Contact-Form.git
@@ -52,8 +52,8 @@
               class="fab fa-github"
               style="font-size: 40px; color: #222"
             >
-           </a>
-            <a href="https://www.google.com" target="_blank"
+            </a>
+            <a href="https://thirsty-brown-33cec3.netlify.app" target="_blank"
               ><img
                 src="../assets/netlify.png"
                 style="height: 50px; width: 50px"
@@ -65,15 +65,19 @@
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
           <div class="card_image"><img src="@/assets/ts.png" /></div>
-          <div class="card_content">
-            <h2 class="card_title">Temperature Converter with Javascript functionality</h2>
+          <div class="card_content" style="height: 135px">
+            <h2 class="card_title">
+              Temperature Converter with Javascript functionality
+            </h2>
             <a
               href="https://github.com/Reese1997/temp-converter.git
 / "
               class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-            <a href="https://www.google.com" target="_blank"
+            <a
+              href="https://priceless-wozniak-d0daa8.netlify.app"
+              target="_blank"
               ><img
                 src="../assets/netlify.png"
                 style="height: 50px; width: 50px"
@@ -94,7 +98,7 @@
               class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-            <a href="https://www.google.com" target="_blank"
+            <a href="https://reesecalculator.netlify.app/" target="_blank"
               ><img
                 src="../assets/netlify.png"
                 style="height: 50px; width: 50px"
@@ -115,7 +119,9 @@
               class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-            <a href="https://www.google.com" target="_blank"
+            <a
+              href="https://clever-kowalevski-61cac6.netlify.app"
+              target="_blank"
               ><img
                 src="../assets/netlify.png"
                 style="height: 50px; width: 50px"
@@ -129,13 +135,25 @@
 </template>
 
 <script>
-export default {}
- 
+export default {
+  //   el: '#example-1',
+  //   data: {
+  //     items: [
+  //       { card1: 'Foo' },
+  //       { card2: 'Bar' },
+  //       { card3: 'Bar' },
+  //       { card4: 'Bar' },
+  //       { card5: 'Bar' },
+  //       { card6: 'Bar' },
+  //     ]
+  //   }
+  // };
+};
 </script>
 
 <style>
 h3 {
-  text-align: center
+  text-align: center;
 }
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
@@ -158,7 +176,6 @@ body {
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
-  
 }
 
 .main {
@@ -207,12 +224,12 @@ img {
 .cards_item {
   display: flex;
   padding: 1rem;
-  background: rgba( 255, 255, 255, 0.15 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 16px );
--webkit-backdrop-filter: blur( 16px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 @media (min-width: 40rem) {

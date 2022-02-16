@@ -1,7 +1,7 @@
 <template>
   <!-- <img src="@/assets/bgblck.jpg" alt="" /> -->
   <div class="background animate__animated animate__zoomIn">
-    <h1>Reese Simone Abrahams</h1> 
+    <h1>Reese Simone Abrahams</h1>
     <h2>I am <span id="text"></span></h2>
     <div class="row justify-content-center"></div>
     <a
@@ -13,7 +13,6 @@
       href="https://www.linkedin.com/in/reese-abrahams-19525415b/"
       class="fab fa-linkedin"
       style="font-size: 70px; color: #222"
-
     ></a>
   </div>
 </template>
@@ -69,9 +68,7 @@ sentenceLoop(sentences, "#text");
 </script>
 
 <style scoped>
-
 .background {
-  
   background-image: url("../assets/r.png");
   background-size: 300px 300px;
   height: 86.5vh;
@@ -161,12 +158,20 @@ h2 {
 }
 
 .fa-linkedin {
-  padding-left: 60%;
+  /* padding-left: 60%;
+  margin-top: -90%; */
 }
 .fa-github {
-    padding-left: 45%;
+  /* padding-left: 45%;
+    margin-top: -60%; */
 
+  margin-left: 44%;
+  padding: 15px 29px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.fa:hover {
+:hover {
+  color: rgb(15, 112, 202);
 }
 </style>

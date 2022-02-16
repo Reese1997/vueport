@@ -1,47 +1,46 @@
 <template>
-<form class="form" action="https://formspree.io/f/mwkazvyq" method="POST">
-        <h1>  Get in touch:</h1><br><br>
-<input type="First name" placeholder="First Name"><br><br>
-<input type="Last name" placeholder="Last Name"><br><br>
-<input type="E-mail" placeholder="E-mail"><br><br>
-<input type="Tel" placeholder="Tel"><br><br>
+  <form class="form" action="https://formspree.io/f/mwkazvyq" method="POST">
+    <h1>Get in touch:</h1>
+    <br /><br />
+    <input type="First name" placeholder="First Name" /><br /><br />
+    <input type="Last name" placeholder="Last Name" /><br /><br />
+    <input type="E-mail" placeholder="E-mail" /><br /><br />
+    <input type="Tel" placeholder="Tel" /><br /><br />
 
-    <textarea class="mess" name="message"></textarea><br><br>
-  
-  <!-- your other form fields go here -->
-  <button class="but" type="submit">Send</button>
-  <button class="but2" type="Reset">Reset</button>
+    <textarea class="mess" name="message"></textarea><br /><br />
+
+    <!-- your other form fields go here -->
+    <button class="but" type="submit ">Send</button>
+    <!-- <button class="but2" type="Reset">Reset</button> -->
   </form>
-  <Footer/>
-  
+  <Footer />
 </template>
 
 <script>
-
-import Footer from '../views/Footer.vue'
+import Footer from "../views/Footer.vue";
 export default {
-  components: {Footer},
+  components: { Footer },
   data() {
     return {
       email: "",
       name: "",
       role: "",
-      terms: false,      
+      terms: false,
     };
   },
-    handleSubmit() {
-      //validate pwd
-      this.passwordError =
-        this.password.length > 5
-          ? ""
-          : "Password must be at least 6 characters long.";
-      if (!this.password) {
-        console.log("email: ", this.email);
-        console.log("name: ", this.name);
-        console.log("role: ", this.role);
-        console.log("terms accepted: ", this.terms);
-      }
-    },
+  handleSubmit() {
+    //validate pwd
+    this.passwordError =
+      this.password.length > 5
+        ? ""
+        : "Password must be at least 6 characters long.";
+    if (!this.password) {
+      console.log("email: ", this.email);
+      console.log("name: ", this.name);
+      console.log("role: ", this.role);
+      console.log("terms accepted: ", this.terms);
+    }
+  },
 };
 </script>
 
@@ -54,12 +53,12 @@ form {
   padding: 50px;
   border-radius: 10px;
   border-style: ridge;
-  background: rgba( 255, 255, 255, 0.15 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 16px );
--webkit-backdrop-filter: blur( 16px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 label {
   color: rgb(58, 55, 55);
@@ -113,8 +112,13 @@ button {
 
 .mess {
   width: 100%;
-  }
+}
 
-  .but {
-  }
+.but {
+  margin-left: 46%;
+  padding: 15px 29px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 </style>

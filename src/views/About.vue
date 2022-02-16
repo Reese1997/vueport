@@ -11,11 +11,11 @@
         >
           <h1>| Introduction</h1>
           <p>
-            I am currently attending a coding bootcamp course at Lifechoices
-            Academy. I specialise in both User Interface/User Experience. I
-            bring design and functionality and transform Applications. My skills
-            range from a wide variety of coding niches, from databases to
-            graphic design and UI/UX management, and I do my job pretty well.
+            Hi, I'm Reese Simone Abrahams. I specialise as Full-Stack Developer.
+            Along with functionality, I construct and transform code into
+            beautiful Applications. My skills range from a wide variety of
+            coding niches, from databases to graphic design and UI/UX
+            management, and I do my job pretty well.
           </p>
         </section>
       </header>
@@ -34,6 +34,7 @@ export default {};
 @media only screen and (max-width: 900px) {
   .masthead {
     padding: 7em 0;
+    padding-left: 28px;
   }
   .masthead-heading {
     font-size: 3em;
@@ -72,22 +73,22 @@ body {
 }
 
 .masthead {
-  padding: 19em 0;
+  padding: 20em 0;
   background-image: url("https://unsplash.com/photos/RYyr-k3Ysqg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em #34719b;
+  border-top: solid 1em rgb(15, 112, 202);
   padding-left: 330px;
 }
 
 .masthead-intro {
   /* Layout Declarations */
-  margin-bottom: 0.1em;
+  margin-bottom: 0.3em;
   /* Typography Declarations */
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 2em;
   color: #585450;
-  padding: 5px;
+  padding: 1px;
 }
 
 .masthead-heading {
@@ -113,7 +114,7 @@ body {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
+  margin-top: -2em;
 }
 
 .social > li {

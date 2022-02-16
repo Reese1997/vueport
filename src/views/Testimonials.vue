@@ -1,6 +1,5 @@
 <template>
   <h3>Testimonials:</h3>
-
   <div class="main">
     <ul class="cards">
       <li class="cards_item animate__animated animate__fadeInRight">
@@ -11,7 +10,7 @@
               style="width: 700px; height; 300px"
             />
           </div>
-          <div class="card_content">
+          <div class="card_content" style="height: 250px">
             <h2 class="card_title">Head of Cirriculum</h2>
             <p class="card_text">Godwin Dzvapatsva</p>
             <p class="card_text">
@@ -46,7 +45,7 @@
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
           <div class="card_image">
-            <img src="@/assets/Abdul.jpg" style="width: 100%" />
+            <img src="@/assets/Abdul.jpg" style="width: 100%; height: 320px" />
           </div>
           <div class="card_content">
             <h2 class="card_title">Full-Stack Developer</h2>
@@ -63,7 +62,7 @@
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
           <div class="card_image"><img src="@/assets/Sergio3.jpg" /></div>
-          <div class="card_content">
+          <div class="card_content" style="height: 179px">
             <h2 class="card_title">Full-Stack Developer</h2>
             <p class="card_text">
               Reese is a hard worker who is very good at what she does. she is
@@ -88,7 +87,7 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
-          <div class="card_image"><img src="" /></div>
+          <div class="card_image"><img src="@/assets/daniel.jpg" /></div>
           <div class="card_content">
             <h2 class="card_title">Daniel Bowers</h2>
             <p class="card_text">Full-Stack Developer</p>
@@ -104,13 +103,28 @@
 </template>
 
 <script>
-export default {};
+export default {
+  //   el: '#example-1',
+  //   data: {
+  //     items: [
+  //       { card1: 'Godwin Davapatsva' },
+  //       { card2: 'Jason Wandrag' },
+  //       { card3: 'Bar' },
+  //       { card4: 'Bar' },
+  //       { card5: 'Bar' },
+  //       { card6: 'Bar' },
+  //     ]
+  //   }
+  // };
+};
 </script>
 
 <style>
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
+h3 {
+}
 /* Design */
 *,
 *::before,
